@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(36, 126, 33);
+    margin: 60px;
+    font-size: 11pt;
+    color: white;
+}
+
+h1{
+    font-size: 82pt;
+}
+
+h2{
+    font-size: 24pt;
+    position: relative;
+    margin-top: -20px;
+}
+
+div{
+    width: 75%;
+}
+
+.div2{
+    width: 50%;
+    top: 46.75%;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 30px;
+}

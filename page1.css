@@ -1,0 +1,50 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: darkolivegreen;
+}
+
+.row{
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+  margin: 0;
+  padding: 0;
+}
+
+.column{
+    flex: 47%;
+  max-width: 457;
+  padding: 0 4px;
+}
+
+img{
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+  margin: 0;
+  padding: 0;
+  display: block; 
+}
+
+#myImage3 {
+    display: none; /* Image 3 will be hidden at the start */
+}
+
+#image7Column {
+    position: absolute; /* Make Image7 position absolute */
+    display: none; /* Initially hide Image7 */
+    justify-content: center;
+    align-items: center;
+    z-index: 10; /* Ensure Image7 appears on top */
+}
+
+#image7 {
+    max-height: 85%;
+    object-fit: cover; /* Ensure Image7 covers the area */
+}
